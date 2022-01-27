@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Outfit;
+  src: url(./Components/Outfit-VariableFont_wght.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Gotham;
+  src: url(./Components/Gotham/Gotham-Bold.otf)  format("opentype"),
+  url(./Components/Gotham/Gotham-Medium.otf)  format("opentype"),
+  url(./Components/Gotham/Gotham-Thin.otf)  format("opentype");
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Outfit', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

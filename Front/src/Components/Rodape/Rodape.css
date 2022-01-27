@@ -1,0 +1,58 @@
+.rodape {
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #6329af;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marca img {
+    width: 183px;
+    height: 31px;
+    padding-bottom: 10px;
+}
+
+.marca p {
+    color: white;
+    font-size: 10px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faleconosco {
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    margin-left: 30px;
+}
+.contatos span {
+    margin-right: 5px;
+}
+.contatos a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

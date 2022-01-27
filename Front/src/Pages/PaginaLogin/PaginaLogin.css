@@ -1,0 +1,137 @@
+/* ESTILO DO FORMULÁRIO */
+
+.formulario-container {
+    display: flex;
+    width: 20vw;
+    height: 60%;
+    align-items: center;   
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    min-width: 200px;
+    box-sizing: border-box;
+    padding-left:15px;
+    height: 50px; 
+    text-align: left;
+    border: none;
+    border-radius: 50px; 
+    outline: none;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+ 
+.botoes{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{ 
+    height: 30px;
+    width: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.btn-login {
+    color: white;
+    background-color: #6329af;
+}
+
+.btn-login:hover {
+    color: white;
+    background-color:rgb(19, 0, 29);  
+}
+
+.btn-registrar {
+    color: #6329af;
+    background-color: white;
+    box-shadow: 0px 2px 3px black;
+}
+
+.btn-registrar:hover {
+    color: white;
+    background-color: rgb(19, 0, 29);  
+}
+
+.btn-senha {
+    margin-top: 6px;
+    width: 170px;
+    color: white;
+    background-color: #6329af;
+    opacity: 0.7;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-senha:hover {
+    opacity: 1;
+    color: white;
+}
+/* COMPONENTE PÁGINA LOGIN */
+.paginalogin::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url("./login.jpg");
+    filter: blur(1px) brightness(70%);
+    z-index: -1;
+    background-size: cover;
+    background-position: 100% 30%;
+}
+.paginalogin { 
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.titulo {
+    font-family: 'Gotham-Medium', 'Outfit', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100vw;
+    text-align: center;
+    font-weight: 800;
+}
+
+.sub-titulo {
+    width: 100%;
+    position: relative;
+    left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+}
+.input{
+    width: 20vw;
+}
